@@ -2,7 +2,8 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "olive.GlobalSearch/*": [ "src/*" ]
+            "olive.GlobalSearch/*": [ "src/*" ],
+            "olive/*":["bower_components/olive.mvc/typings/*"]
         },
         "module": "amd",
         "target": "es5",  
