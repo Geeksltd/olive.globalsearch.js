@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "olive.GlobalSearch/*": [ "src/*" ]
+        },
+        "module": "amd",
+        "target": "es5",  
+        "outDir": "dist",
+        "declaration": true,
+        "declarationDir": "typings",
+        "noImplicitUseStrict": true,
+        "inlineSourceMap": true,
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false
+    },
+    "exclude": [
+        "typings",
+        "dist"
+    ],
+    "compileOnSave": true     
+}
