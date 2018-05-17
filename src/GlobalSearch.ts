@@ -24,7 +24,7 @@ export default class GlobalSearch {
             console.log(this.input);
         }
 
-        let url = this.input.attr("autocomplete-source") || '';
+        let url = this.input.attr("globalsearch-source") || '';
         $.ajax({
             url: url,
             type: 'GET',

@@ -20,7 +20,7 @@ define(["require", "exports", "olive/components/form"], function (require, expor
                 console.log("Failed to find the value field for auto-complete:");
                 console.log(this.input);
             }
-            var url = this.input.attr("autocomplete-source") || '';
+            var url = this.input.attr("globalsearch-source") || '';
             $.ajax({
                 url: url,
                 type: 'GET',
